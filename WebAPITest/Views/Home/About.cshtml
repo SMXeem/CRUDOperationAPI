@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<table class="table table-hover table-bordered table-striped">
+    <thead>
+    <tr>
+        <td>Work</td>
+        <td>Link</td>
+        <td>Method</td>
+        <td>Description</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Get All</td>
+        <td>~/api/employee/getall</td>
+        <td>Get</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Get By Id</td>
+        <td>~/api/employee/getbyid</td>
+        <td>Get</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Create</td>
+        <td>~/api/employee/create</td>
+        <td>Post</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Delete</td>
+        <td>~/api/employee/deletebyid</td>
+        <td>Delete</td>
+        <td>~/api/employee/DeleteById?id=1004</td>
+    </tr>
+    <tr>
+        <td>Update</td>
+        <td>~/api/employee/update</td>
+        <td>Put</td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
